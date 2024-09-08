@@ -1,0 +1,32 @@
+header{
+    background-color:  wheat;
+    padding: 5px;
+}
+
+h1, h2 {
+    color: blue;
+    text-align:center;
+}
+
+body
+{
+    background-color: lightpink;
+}
+
+.container
+{
+    background-color: red;
+}
+
+#bottom
+{
+    background-color: #333;
+    color:white;
+    text-align:center;
+    padding: 5px;
+}
+
+#bottom h2
+{
+    color: yellow;
+}  
