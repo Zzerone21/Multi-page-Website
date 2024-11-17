@@ -10,7 +10,7 @@ h1, h2 {
 
 body
 {
-    background-color: lightpink;
+    background-color: #ffb6c1;
 }
 
 .container
@@ -30,3 +30,26 @@ body
 {
     color: yellow;
 }  
+/* Mobile Styles - Up to 600px */
+@media (max-width: 600px) {
+    img {
+        width: 100%; /* Images will fill the entire width of the screen */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* Tablet Styles - Between 601px and 992px */
+@media (min-width: 601px) and (max-width: 992px) {
+    img {
+        width: 100%; /* Images will fill the width of the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* Desktop Styles - 993px and up */
+@media (min-width: 993px) {
+    img {
+        width: 100%; /* Images will fill the width of the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+}

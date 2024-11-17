@@ -4,37 +4,96 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<style>
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+    nav {
+    display: flex;
+    justify-content: center; /* Centers the links */
+    gap: 15px; /* Adds spacing between links */
+    }
+
+    nav a {
+        text-decoration: none;
+        padding: 5px 10px; /* Adjusts inner spacing for better appearance */
+        margin: 0; /* Override if there's any existing margin */
+    }
+/* Mobile Styles - Up to 600px */
+@media (max-width: 600px) {
+    video {
+        width: 100%; /* Videos will fill the entire width of the screen */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* Tablet Styles - Between 601px and 992px */
+@media (min-width: 601px) and (max-width: 992px) {
+    video {
+        width: 100%; /* Videos will fill the width of the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* Desktop Styles - 993px and up */
+@media (min-width: 993px) {
+    video {
+        width: 100%; /* Videos will fill the width of the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+
+    </style>
+
 <header>
     <nav>
         <a href="index.html">Home</a>
-        <a href="FunFacts.html">Fun Facts</a>
+        <a href="FunFacts.html">Fun Facts</a> 
         <a href="contact.html">Contact</a>
         <a href="About.html">About</a>
         <a href="Things to do.html">Things To Do</a>
 
-    </nav>    
+    </nav>
 
     <h1>About</h1>
 
     <h1>THINGS TO LOOK OUT FOR</h1>
         <p style= "text-align:center;">video guides 
             <ol>
-                <li> 
-                    <video width="1000" height="500" controls>
-                        <source src="./videos/video2.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                <li>
+                    <div style="text-align: center;">
+                        <video width="1000" height="500" controls>
+                            <source src="./videos/video2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </li>
-                <li>    <video width="1000" height="500" controls>
-                        <source src="./videos/video1.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                <li>
+                    <div style="text-align: center;">
+                        <video width="1000" height="500" controls>
+                            <source src="./videos/video1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </li>
-                <li><video width="1000" height="500" controls>
-                        <source src="./videos/video3.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </li>
+                <li>
+                    <div style="text-align: center;">
+                        <video width="1000" height="500" controls>
+                            <source src="./videos/video3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </li>                
             </ol>
         </p>
 
@@ -194,3 +253,5 @@
         </td>
     </tr>
 </table>
+</header
+</body>
